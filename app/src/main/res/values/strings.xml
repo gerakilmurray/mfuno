@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Me Falta Uno</string>
+    <string name="app_name_full">MF1 - Me Falta Uno</string>
+    <string name="facebook_app_id">1666111597048614</string>
+    <string name="fb_login_protocol_scheme">fb1666111597048614</string>
+    <string name="action_settings">Opciones</string>
+    <string name="login_button">Ingresa con Facebook</string>
+    <string name="logout_button">Cerrar sesión</string>
+    <string name="title_activity_logout">Salir de MF1</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="loading">Cargando&#8230;</string>
+    <string name="response">Respuesta&#58; </string>
+</resources>

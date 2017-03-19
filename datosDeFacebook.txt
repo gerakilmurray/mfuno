@@ -1,0 +1,13 @@
+meFalta1_dev
+
+App ID = 1666111597048614
+
+App Secret = 98951183a486c49b8ccd0b7c26df9ad5
+
+
+
+meFalta1_dev
+
+App ID = 1666111263715314
+
+App Secret = 9b7085e3c1c05f9b2ffa8b62e41c23f2

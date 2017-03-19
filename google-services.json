@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848827392706",
+    "firebase_url": "https://mefaltauno-145c5.firebaseio.com",
+    "project_id": "mefaltauno-145c5",
+    "storage_bucket": "mefaltauno-145c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848827392706:android:b0b7257581d280fa",
+        "android_client_info": {
+          "package_name": "com.glkdroid.mfuno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848827392706-j63dvru0uv95s83gp76et45vse2livv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glkdroid.mfuno",
+            "certificate_hash": "03e14f79d888098ab82b03c08867059b08a270b5"
+          }
+        },
+        {
+          "client_id": "848827392706-7ida3mdt7o1cgdtoomk5n0p4i2ai3aa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ItcXWqtWtXZUwBkykibdYAZkGTKpaXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848827392706-7ida3mdt7o1cgdtoomk5n0p4i2ai3aa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

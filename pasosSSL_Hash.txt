@@ -1,0 +1,86 @@
+You'll have a unique development key hash for each Android development environment. To generate a development key hash, on Mac, run the following command:
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\Gera>keytool -exportcert -alias mefaltauno_glkdroid -keystore %HOMEPATH%\.android\release.keystore | openssl sha1 -binary | openssl base64
+Introduzca la contraseña del almacén de claves:  g.l.k_DroID_SSL1984
+hHb6meSzat8urIk9svz5J4s0FJY=
+
+C:\Users\Gera>keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+Introduzca la contraseña del almacén de claves:  g.l.k_DroID_SSL1984
+RJJPzFqVBHcIGQRNfmWY9EE5XaQ=
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\Gera\.android>keytool -list -v -keystore release.keystore
+Introduzca la contraseña del almacén de claves:
+
+Tipo de Almacén de Claves: JKS
+Proveedor de Almacén de Claves: SUN
+
+Su almacén de claves contiene 1 entrada
+
+Nombre de Alias: mefaltauno_glkdroid
+Fecha de Creación: 16/07/2016
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: CN=MeFaltaUno, OU=MeFaltaUno, O=glkDroID, L=CABA, ST=Buenos Aires, C=54
+Emisor: CN=MeFaltaUno, OU=MeFaltaUno, O=glkDroID, L=CABA, ST=Buenos Aires, C=54
+Número de serie: 5ffbe98f
+Válido desde: Sat Jul 16 21:53:52 ART 2016 hasta: Wed Jul 10 21:53:52 ART 2041
+Huellas digitales del Certificado:
+         MD5: 91:16:95:39:F0:14:72:A0:6C:B7:E0:6D:C5:AA:DA:B9
+         SHA1: 84:76:FA:99:E4:B3:6A:DF:2E:AC:89:3D:B2:FC:F9:27:8B:34:14:96
+         SHA256: BC:08:E9:FA:59:D2:F5:18:B9:A1:DD:21:8E:F2:FC:C4:74:C0:F4:59:7F:93:26:93:92:44:C9:9A:8C:CC:5E:1E
+         Nombre del Algoritmo de Firma: SHA256withRSA
+         Versión: 3
+
+Extensiones:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 3D C3 1C 79 F7 ED E3 C0   8D 3C 56 CD 23 7B 8F 7F  =..y.....<V.#...
+0010: 32 3B A4 7C                                        2;..
+]
+]
+*******************************************
+*******************************************
+
+C:\Users\Gera\.android>keytool -list -v -keystore debug.keystore
+Introduzca la contraseña del almacén de claves:
+*****************  WARNING WARNING WARNING  *****************
+Tipo de Almacén de Claves: JKS
+Proveedor de Almacén de Claves: SUN
+
+Su almacén de claves contiene 1 entrada
+
+Nombre de Alias: androiddebugkey
+Fecha de Creación: 17/04/2016
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: C=US, O=Android, CN=Android Debug
+Emisor: C=US, O=Android, CN=Android Debug
+Número de serie: 1
+Válido desde: Sun Apr 17 20:18:00 ART 2016 hasta: Tue Apr 10 20:18:00 ART 2046
+Huellas digitales del Certificado:
+         MD5: 78:9B:CE:3D:2B:CD:2B:DF:3D:A2:82:56:C1:2D:E9:67
+         SHA1: 30:21:2F:EC:A3:EC:08:FA:59:19:90:10:3F:ED:76:D4:35:67:53:EE
+         SHA256: 89:62:95:4D:5F:C1:20:78:F5:24:35:D5:05:93:60:5B:C4:EF:29:25:F8:05:BF:48:91:0F:3A:CB:34:DC:37:1B
+         Nombre del Algoritmo de Firma: SHA1withRSA
+         Versión: 1
+*******************************************
+*******************************************
+
+
+
+
+
+
+
+
+
+
+

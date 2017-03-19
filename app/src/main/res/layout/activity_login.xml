@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    tools:context="com.glkdroid.mfuno.LoginActivity"
+    android:gravity="top|center_horizontal"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_login"
+    android:adjustViewBounds="true" >
+
+    <TextView
+        android:id="@+id/btnLogin"
+        android:background="#3f51b4"
+        android:padding="16dp"
+        android:text="@string/login_button"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/com_facebook_button_like" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:src="@drawable/logo"
+        android:paddingTop="10dp"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="logo" />
+
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="70dp"
+        android:visibility="gone"
+        android:layout_weight="0.33" />
+</LinearLayout>
